@@ -14,18 +14,19 @@ There are a lot more things to say to those languages that I glanced over.
 graph
 	PLs[Programming Languages]
 
-	PLs --> Mu[Multiple Uses]
-	Mu --> JS[JavaScript]
-	JS -->|JavaScript with Types| TS[TypeScript]
+	PLs --> Mu{{Multiple Uses}}
+	Mu --> JS(JavaScript)
+	JS -->|JavaScript with Types| TS(TypeScript)
 
-	PLs --> Simple
+	PLs --> Simple{{Simple}}
 
-	Simple --> |Functional| Elixir
-	Simple --> |Low Level| C
-	Simple --> |High Level| Go
-	Elixir -->|Functional, OOP| OCaml
-	OCaml -->|Functional but Hard| Haskell
-	OCaml -->|Low Level but Hard| Rust
+	Simple --> |Functional| Elixir(Elixir)
+	Simple --> |Low Level| C(C)
+	Simple --> |High Level| Go(Go)
+	Elixir -->|Functional, OOP| OCaml(OCaml)
+	OCaml --> Hard
+	Hard -->|Functional but Hard| Haskell(Haskell)
+	Hard{{Hard}} -->|Low Level but Hard| Rust(Rust)
 	C -->|Low Level but Hard| Rust
 	C -->|High Level| Go
 ```
