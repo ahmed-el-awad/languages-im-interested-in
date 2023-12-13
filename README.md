@@ -25,6 +25,7 @@ graph
 	Simple --> |High Level| Go
 	Elixir -->|Functional, OOP| OCaml
 	OCaml -->|Functional but Hard| Haskell
-	OCaml -->|Functional, Low Level but Hard| Rust
+	OCaml -->|Low Level but Hard| Rust
+	C -->|Low Level but Hard| Rust
 	C -->|High Level| Go
 ```
