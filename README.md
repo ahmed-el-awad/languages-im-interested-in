@@ -20,13 +20,12 @@ graph
 
 	PLs --> Simple{{Simple}}
 
-	Simple --> |Functional| Elixir(Elixir)
+    Simple --> |Functional| Elixir(Elixir)
+	Elixir --> |Functional, OOP| OCaml(OCaml)
+	
 	Simple --> |Low Level| C(C)
-	Simple --> |High Level| Go(Go)
-	Elixir -->|Functional, OOP| OCaml(OCaml)
-	OCaml --> Hard
-	Hard -->|Functional but Hard| Haskell(Haskell)
-	Hard{{Hard}} -->|Low Level but Hard| Rust(Rust)
-	C -->|Low Level but Hard| Rust
-	C -->|High Level| Go
+	Simple --> |Simple, High Level| Go(Go)
+
+	C -->|#quot;Nicer C#quot;| Zig
+	C -->|Simple, High Level| Go
 ```
