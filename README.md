@@ -26,6 +26,6 @@ graph
 	Simple --> |Low Level| C(C)
 	Simple --> |Simple, High Level| Go(Go)
 
-	C -->|#quot;Nicer C#quot;| Zig
+	C -->|#quot;Nicer C#quot;| Zig(Zig)
 	C -->|Simple, High Level| Go
 ```
